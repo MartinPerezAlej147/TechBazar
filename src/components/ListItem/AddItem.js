@@ -1,4 +1,4 @@
-import { colors } from "../Global/Colors"
+import { colors } from "../../Global/Colors"
 import {
 	View,
 	TextInput,
@@ -10,10 +10,10 @@ import {
 const AddItem = ({
 	valueTitle,
 	valuePrice,
-	valueQuantity,
+	valueStock,
 	onChangeTitle,
 	onChangePrice,
-	onChangeQuantity,
+	onChangeStock,
 	addItem,
 }) => {
 	return (
@@ -35,15 +35,18 @@ const AddItem = ({
 			/>
 			<TextInput
 				style={styles.input}
-				placeholder="Cantidad"
+				placeholder="Stock"
 				placeholderTextColor={colors.white}
-				value={valueQuantity}
-				onChangeText={(t) => onChangeQuantity(t)}
+				value={valueStock}
+				onChangeText={(t) => onChangeStock(t)}
 				keyboardType="numeric"
 			/>
 
 			<TouchableOpacity onPress={addItem} style={styles.addImageContainer}>
-				<Image style={styles.addImage} source={require("../Sources/mas.png")} />
+				<Image
+					style={styles.addImage}
+					source={require("../../Sources/mas.png")}
+				/>
 			</TouchableOpacity>
 		</View>
 	)

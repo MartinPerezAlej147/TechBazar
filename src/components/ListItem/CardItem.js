@@ -19,15 +19,20 @@ const CardItem = ({ item, onConfirmDelete, onEdit }) => {
 				onValueChange={toggleSwitch}
 				value={isEnabled}
 			/>
+			<Image
+				style={styles.image}
+				resizeMode="cover"
+				source={{ uri: item.thumbnail }}
+			/>
 			<Text style={styles.card}>{item.title}</Text>
 			<Text style={styles.card}> $ {item.price}</Text>
-			<Text style={styles.card}>{item.quantity}</Text>
+			<Text style={styles.card}>{item.stock}</Text>
 			<TouchableOpacity
 				style={styles.imageContainer}
 				onPress={() => onEdit(item, true)}
 			>
 				<Image
-					style={styles.image}
+					style={styles.iconsImage}
 					source={require("../../Sources/lapiz.png")}
 				/>
 			</TouchableOpacity>
@@ -36,7 +41,7 @@ const CardItem = ({ item, onConfirmDelete, onEdit }) => {
 				onPress={() => onConfirmDelete(item, true)}
 			>
 				<Image
-					style={styles.image}
+					style={styles.iconsImage}
 					source={require("../../Sources/cruz.png")}
 				/>
 			</TouchableOpacity>
@@ -64,7 +69,7 @@ const styles = StyleSheet.create({
 	card: {
 		color: colors.white,
 	},
-	image: {
+	iconsImage: {
 		margin: 5,
 		height: 20,
 		width: 20,
@@ -72,6 +77,10 @@ const styles = StyleSheet.create({
 	imageContainer: {
 		backgroundColor: colors.secondary,
 		borderRadius: 8,
+	},
+	image: {
+		width: 50,
+		height: 50,
 	},
 })
 export default CardItem

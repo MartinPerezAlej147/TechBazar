@@ -1,13 +1,13 @@
-import { colors } from "../Global/Colors"
+import { colors } from "../../Global/Colors"
 import { Modal, View, TextInput, Button, StyleSheet } from "react-native"
 
 const EditItem = ({
 	newTitleItem,
 	newPriceItem,
-	newQuantityItem,
+	newStockItem,
 	onChangeTitle,
 	onChangePrice,
-	onChangeQuantity,
+	onChangeStock,
 	item,
 	visible,
 	onCancel,
@@ -26,17 +26,19 @@ const EditItem = ({
 					/>
 					<TextInput
 						style={styles.input}
-						placeholder={item.price}
+						placeholder={String(item.price)}
 						placeholderTextColor={colors.white}
 						value={newPriceItem}
 						onChangeText={(t) => onChangePrice(t)}
+						keyboardType="numeric"
 					/>
 					<TextInput
 						style={styles.input}
-						placeholder={item.quantity}
+						placeholder={String(item.stock)}
 						placeholderTextColor={colors.white}
-						value={newQuantityItem}
-						onChangeText={(t) => onChangeQuantity(t)}
+						value={newStockItem}
+						onChangeText={(t) => onChangeStock(t)}
+						keyboardType="numeric"
 					/>
 				</View>
 				<Button title="Editar" onPress={() => onEdit(item)} />

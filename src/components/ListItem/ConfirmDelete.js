@@ -1,5 +1,5 @@
 import { Modal, View, Button, StyleSheet, Text } from "react-native"
-import { colors } from "../Global/Colors"
+import { colors } from "../../Global/Colors"
 
 const ConfirmDelete = ({ item, visible, onCancel, onDelete }) => {
 	return (
@@ -10,7 +10,7 @@ const ConfirmDelete = ({ item, visible, onCancel, onDelete }) => {
 					<Text style={styles.labelText}>Titulo</Text>
 					<Text style={styles.fieldText}>{item.title}</Text>
 					<Text style={styles.labelText}>Precio</Text>
-					<Text style={styles.fieldText}>{item.price}</Text>
+					<Text style={styles.fieldText}>${item.price}</Text>
 				</View>
 				<Button title="Si" onPress={() => onDelete(item)} />
 				<Button title="No" onPress={() => onCancel(item, false)} />
