@@ -3,7 +3,7 @@ import AllCategories from "../Data/Categories.json"
 import CategoryItem from "./CategoriesListItem/CategoryItem"
 import { colors } from "../Global/Colors"
 
-const Categories = ({ setCategorySelected }) => {
+const Categories = ({ navigation }) => {
 	return (
 		<>
 			<View style={styles.containerText}>
@@ -13,10 +13,7 @@ const Categories = ({ setCategorySelected }) => {
 				data={AllCategories}
 				keyExtractor={(item) => item}
 				renderItem={({ item }) => (
-					<CategoryItem
-						setCategorySelected={setCategorySelected}
-						category={item}
-					/>
+					<CategoryItem category={item} navigation={navigation} />
 				)}
 			/>
 		</>

@@ -9,7 +9,9 @@ import ConfirmDelete from "../Components/ListItem/ConfirmDelete"
 import EditItem from "../Components/ListItem/EditItem"
 import ListItem from "../Components/ListItem"
 
-const ItemListCategories = ({ category, handlerGoBack }) => {
+const ItemListCategories = ({ navigation, route }) => {
+	const { category } = route.params
+
 	const [keyword, setKeyword] = useState("")
 	const [items, setItems] = useState(allItems)
 
@@ -86,7 +88,6 @@ const ItemListCategories = ({ category, handlerGoBack }) => {
 
 	return (
 		<>
-			<Header handlerGoBack={handlerGoBack} />
 			<Search setKeyword={setKeyword} />
 			<AddItem
 				valueTitle={newTitleItem}
@@ -116,6 +117,7 @@ const ItemListCategories = ({ category, handlerGoBack }) => {
 				onEdit={handlerEditItem}
 			/>
 			<ListItem
+				navigation={navigation}
 				items={items}
 				onConfirmDelete={handlerConfirmDelete}
 				onEdit={handlerEdit}

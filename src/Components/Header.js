@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native"
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native"
 import { colors } from "../Global/Colors"
 
-const Header = ({ handlerGoBack }) => {
+const Header = () => {
 	return (
 		<View style={styles.container}>
-			<TouchableOpacity onPress={handlerGoBack}>
+			<TouchableOpacity>
 				<Text style={styles.text}>TechBazar</Text>
 			</TouchableOpacity>
 		</View>

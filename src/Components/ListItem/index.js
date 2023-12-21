@@ -1,7 +1,7 @@
 import { View, FlatList, StyleSheet } from "react-native"
 import CardItem from "./CardItem"
 
-const ListItem = ({ items, onConfirmDelete, onEdit }) => {
+const ListItem = ({ navigation, items, onConfirmDelete, onEdit }) => {
 	return (
 		<View style={styles.listContainer}>
 			<FlatList
@@ -9,6 +9,7 @@ const ListItem = ({ items, onConfirmDelete, onEdit }) => {
 				keyExtractor={(item) => item.id}
 				renderItem={({ item }) => (
 					<CardItem
+						navigation={navigation}
 						item={item}
 						onConfirmDelete={onConfirmDelete}
 						onEdit={onEdit}

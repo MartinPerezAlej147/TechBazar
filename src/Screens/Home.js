@@ -1,16 +1,12 @@
-import { StyleSheet } from "react-native"
 import Header from "../Components/Header"
 import Categories from "../Components/Categories"
 
-const Home = ({ setCategorySelected, handlerGoBack }) => {
+const Home = ({ navigation, route }) => {
 	return (
 		<>
-			<Header handlerGoBack={handlerGoBack} />
-			<Categories setCategorySelected={setCategorySelected} />
+			<Categories navigation={navigation} route={route} />
 		</>
 	)
 }
 
 export default Home
-
-const styles = StyleSheet.create({})

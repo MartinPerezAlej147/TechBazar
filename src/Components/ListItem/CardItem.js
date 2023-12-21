@@ -9,7 +9,7 @@ import {
 	Switch,
 } from "react-native"
 
-const CardItem = ({ item, onConfirmDelete, onEdit }) => {
+const CardItem = ({ navigation, item, onConfirmDelete, onEdit }) => {
 	const [isEnabled, setIsEnabled] = useState(false)
 	const toggleSwitch = () => setIsEnabled((previousState) => !previousState)
 	return (
@@ -19,14 +19,16 @@ const CardItem = ({ item, onConfirmDelete, onEdit }) => {
 				onValueChange={toggleSwitch}
 				value={isEnabled}
 			/>
-			<Image
-				style={styles.image}
-				resizeMode="cover"
-				source={{ uri: item.thumbnail }}
-			/>
-			<Text style={styles.card}>{item.title}</Text>
-			<Text style={styles.card}> $ {item.price}</Text>
-			<Text style={styles.card}>{item.stock}</Text>
+			<TouchableOpacity onPress={() => navigation.navigate("ItemDetails", { id: item.id })} styles={styles.card}>
+				<Image
+					style={styles.image}
+					resizeMode="cover"
+					source={{ uri: item.thumbnail }}
+				/>
+				<Text style={styles.card}>{item.title}</Text>
+				<Text style={styles.card}> $ {item.price}</Text>
+				<Text style={styles.card}>{item.stock}</Text>
+			</TouchableOpacity>
 			<TouchableOpacity
 				style={styles.imageContainer}
 				onPress={() => onEdit(item, true)}
@@ -45,7 +47,7 @@ const CardItem = ({ item, onConfirmDelete, onEdit }) => {
 					source={require("../../Sources/cruz.png")}
 				/>
 			</TouchableOpacity>
-		</View>
+		</View >
 	)
 }
 const styles = StyleSheet.create({
@@ -67,6 +69,8 @@ const styles = StyleSheet.create({
 	},
 
 	card: {
+		flexDirection: "row",
+		width: "100%",
 		color: colors.white,
 	},
 	iconsImage: {
