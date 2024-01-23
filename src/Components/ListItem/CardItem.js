@@ -19,7 +19,10 @@ const CardItem = ({ navigation, item, onConfirmDelete, onEdit }) => {
 				onValueChange={toggleSwitch}
 				value={isEnabled}
 			/>
-			<TouchableOpacity onPress={() => navigation.navigate("ItemDetails", { id: item.id })} styles={styles.card}>
+			<TouchableOpacity
+				onPress={() => navigation.navigate("ItemDetails", { id: item.id })}
+				styles={styles.card}
+			>
 				<Image
 					style={styles.image}
 					resizeMode="cover"
@@ -47,7 +50,7 @@ const CardItem = ({ navigation, item, onConfirmDelete, onEdit }) => {
 					source={require("../../Sources/cruz.png")}
 				/>
 			</TouchableOpacity>
-		</View >
+		</View>
 	)
 }
 const styles = StyleSheet.create({

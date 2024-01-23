@@ -18,7 +18,6 @@ const AddItem = ({
 }) => {
 	return (
 		<View style={styles.inputContainer}>
-
 			<TextInput
 				style={styles.input}
 				placeholder="Nombre"

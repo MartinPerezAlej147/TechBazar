@@ -1,8 +1,7 @@
 import { StyleSheet } from "react-native"
-import Header from "../Components/Header"
 import Search from "../Components/Search"
 import uuid from "react-native-uuid"
-import allItems from "../Data/Items.json"
+import { useGetProductsQuery } from "../App/Services/ShopServices"
 import { useEffect, useState } from "react"
 import AddItem from "../Components/ListItem/AddItem"
 import ConfirmDelete from "../Components/ListItem/ConfirmDelete"
@@ -13,7 +12,7 @@ const ItemListCategories = ({ navigation, route }) => {
 	const { category } = route.params
 
 	const [keyword, setKeyword] = useState("")
-	const [items, setItems] = useState(allItems)
+	const [data, isLoading, error] = useGetProductsQuery(category)
 
 	const [newTitleItem, setNewTitleItem] = useState("")
 	const [newPriceItem, setNewPriceItem] = useState("")

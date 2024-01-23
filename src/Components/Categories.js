@@ -1,16 +1,18 @@
-import { FlatList, StyleSheet, Text, View } from "react-native"
-import AllCategories from "../Data/Categories.json"
-import CategoryItem from "./CategoriesListItem/CategoryItem"
+import { StyleSheet } from "react-native"
+import { useGetCategoriesQuery } from "../App/Services/ShopServices"
 import { colors } from "../Global/Colors"
+import CategoryItem from "./CategoriesListItem/CategoryItem"
 
-const Categories = ({ navigation }) => {
+const Categories = ({ navigation, route }) => {
+	const { data, isLoading, error } = useGetCategoriesQuery()
+
 	return (
 		<>
 			<View style={styles.containerText}>
 				<Text style={styles.text}>Categories</Text>
 			</View>
 			<FlatList
-				data={AllCategories}
+				data={data.Categories}
 				keyExtractor={(item) => item}
 				renderItem={({ item }) => (
 					<CategoryItem category={item} navigation={navigation} />
