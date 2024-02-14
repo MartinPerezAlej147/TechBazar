@@ -7,6 +7,7 @@ import { useSignupMutation } from "../App/Services/Auth"
 import { useDispatch } from "react-redux"
 import { setUser } from "../Features/Auth/AuthSlice"
 import { signupSchema } from "../Validations/SignUpSchema"
+import { insertSession } from "../../src/DataBase"
 
 const Signup = ({ navigation }) => {
 	const dispatch = useDispatch()
@@ -107,15 +108,15 @@ const styles = StyleSheet.create({
 	},
 	title: {
 		fontSize: 22,
-		fontFamily: "Lobster",
+		fontFamily: "CybordPunkFont",
 	},
 	sub: {
 		fontSize: 14,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 	},
 	subLink: {
 		fontSize: 14,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 		color: "blue",
 	},
 })

@@ -1,8 +1,9 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import Home from "../Screens/Home"
-import ItemListCategories from "../Screens/ItemListCategories"
+import ItemListPlatforms from "../Screens/ItemListPlatforms"
 import ItemDetail from "../Screens/ItemDetail"
 import Header from "../Components/Header"
+
 const Stack = createNativeStackNavigator()
 
 const StoreStack = () => {
@@ -16,7 +17,7 @@ const StoreStack = () => {
 			}}
 		>
 			<Stack.Screen name="Home" component={Home} />
-			<Stack.Screen name="Category" component={ItemListCategories} />
+			<Stack.Screen name="Platforms" component={ItemListPlatforms} />
 			<Stack.Screen name="ItemDetails" component={ItemDetail} />
 		</Stack.Navigator>
 	)

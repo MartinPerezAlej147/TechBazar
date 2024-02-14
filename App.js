@@ -1,8 +1,9 @@
 import { useFonts } from "expo-font"
-import MainNavigator from "./src/Navigator/MainNavigator"
 import { fonts } from "./src/Global/Fonts"
 import { init } from "./src/DataBase"
 import { store } from "./src/App/Store"
+import { Provider } from "react-redux"
+import MainNavigator from "./src/Navigator/MainNavigator"
 
 init()
 	.then(() => console.log("DB Initialized"))

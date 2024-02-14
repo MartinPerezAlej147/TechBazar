@@ -2,17 +2,17 @@ import { Pressable, StyleSheet, Text, View } from "react-native"
 import { colors } from "../../Global/Colors"
 import CardShadow from "../../Wrappers/CardShadow"
 
-const CategoryItem = ({ category, navigation }) => {
+const PlatformItem = ({ platform, navigation }) => {
 	return (
-		<Pressable onPress={() => navigation.navigate("Category", { category })}>
+		<Pressable onPress={() => navigation.navigate("Platforms", { platform })}>
 			<CardShadow style={styles.container}>
-				<Text style={styles.text}>{category}</Text>
+				<Text style={styles.text}>{platform}</Text>
 			</CardShadow>
 		</Pressable>
 	)
 }
 
-export default CategoryItem
+export default PlatformItem
 
 const styles = StyleSheet.create({
 	container: {

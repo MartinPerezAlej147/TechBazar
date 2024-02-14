@@ -75,15 +75,15 @@ const styles = StyleSheet.create({
 	},
 	title: {
 		fontSize: 22,
-		fontFamily: "Lobster",
+		fontFamily: "CybordPunkFont",
 	},
 	sub: {
 		fontSize: 14,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 	},
 	subLink: {
 		fontSize: 14,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 		color: "blue",
 	},
 })

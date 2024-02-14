@@ -1,13 +1,12 @@
 import { NavigationContainer } from "@react-navigation/native"
 import TabNavigator from "./TabNavigator"
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
 import AuthStack from "./AuthStack"
 import { useSelector, useDispatch } from "react-redux"
 import { fechSession } from "../DataBase"
 import { setUser } from "../Features/Auth/AuthSlice"
 
 const MainNavigator = () => {
-	console.log("asd")
 	const dispatch = useDispatch()
 	const idToken = useSelector((state) => state.auth.value.idToken)
 
@@ -24,8 +23,6 @@ const MainNavigator = () => {
 			}
 		})()
 	}, [])
-
-	console.log("asd")
 
 	return (
 		<NavigationContainer>

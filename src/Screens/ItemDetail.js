@@ -1,28 +1,29 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
-import React, { useEffect, useState } from 'react'
-import allProduct from "../Data/Items.json"
+import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native"
+import React, { useEffect, useState } from "react"
+import allProduct from "../Data/games.json"
+import { useDispatch } from "react-redux"
+import { addItem } from "../Features/Cart/CartSlice"
 import { colors } from "../Global/Colors"
 
 const ItemDetail = ({ route }) => {
 	const { id } = route.params
 
 	const [product, setProduct] = useState({})
+	const dispatch = useDispatch()
 	const images = product.images ? product.images : []
 
 	useEffect(() => {
-
-		const productFinded = allProduct.find(product => product.id === id)
+		const productFinded = allProduct.find((product) => product.id === id)
 		setProduct(productFinded)
-
 	}, [id])
 	return (
-
 		<View style={styles.container}>
-			<View style={styles.content} >
+			<View style={styles.content}>
 				<Image
 					style={styles.image}
 					source={{ uri: images[2] }}
-					resizeMode='cover' s
+					resizeMode="cover"
+					s
 				/>
 				<View style={styles.containerText}>
 					<Text style={styles.title}>{product.title}</Text>
@@ -32,7 +33,7 @@ const ItemDetail = ({ route }) => {
 					<Text style={styles.price}>$ {product.price}</Text>
 				</View>
 				<View style={styles.buyNow}>
-					<TouchableOpacity >
+					<TouchableOpacity onPress={() => dispatch(addItem(product))}>
 						<Text style={styles.buyNowText}>Buy Now</Text>
 					</TouchableOpacity>
 				</View>
@@ -43,7 +44,6 @@ const ItemDetail = ({ route }) => {
 
 export default ItemDetail
 
-
 const styles = StyleSheet.create({
 	container: {
 		backgroundColor: colors.tertiary,
@@ -53,37 +53,37 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	content: {
-		width: "100%"
+		width: "100%",
 	},
 
 	image: {
 		width: "100%",
-		height: 300
+		height: 300,
 	},
 	containerText: {
 		gap: 25,
 		paddingHorizontal: 5,
-		paddingVertical: 25
+		paddingVertical: 25,
 	},
 	containerPrice: {
 		width: "100%",
 		flexDirection: "row",
 		justifyContent: "space-around",
 		alignItems: "center",
-		marginVertical: 10
+		marginVertical: 10,
 	},
 	title: {
 		fontSize: 30,
 		fontWeight: "bold",
-		color: "white"
+		color: "white",
 	},
 	description: {
 		fontSize: 15,
-		color: "white"
+		color: "white",
 	},
 	price: {
 		color: "white",
-		fontSize: 40
+		fontSize: 40,
 	},
 	buyNow: {
 		backgroundColor: colors.primary,
@@ -93,11 +93,10 @@ const styles = StyleSheet.create({
 		backgroundColor: colors.primaryVariant,
 		padding: 10,
 		justifyContent: "center",
-		alignItems: "center"
-
+		alignItems: "center",
 	},
 	buyNowText: {
 		color: "white",
-		fontSize: 20
-	}
+		fontSize: 20,
+	},
 })

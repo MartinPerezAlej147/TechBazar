@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit"
-import allItems from "../../Data/Items.json"
-import allCategories from "../../Data/Categories.json"
+import allGames from "../../Data/games.json"
+import allPlatforms from "../../Data/platforms.json"
 
 const initialState = {
 	value: {
-		items: allItems,
-		categories: allCategories,
-		itemSelected: {},
-		itemsFilteredByCategory: [],
+		games: allGames,
+		plataforms: allPlatforms,
+		gameSelected: {},
+		gamesFilteredByPlatform: [],
 	},
 }
 
@@ -15,20 +15,20 @@ export const shopSlice = createSlice({
 	name: "shop",
 	initialState,
 	reducers: {
-		setItemsFilteredByCategory: (state, actions) => {
-			state.value.itemsFilteredByCategory = state.value.items.filter(
-				(item) => item.category == actions.payload
+		setGamesFilteredByPlataform: (state, actions) => {
+			state.value.gamesFilteredByPlatform = state.value.games.filter(
+				(game) => game.platform == actions.payload
 			)
 		},
-		setItemSelected: (state, actions) => {
-			state.value.itemSelected = state.value.items.find(
-				(item) => item.id === actions.payload
+		setGameSelected: (state, actions) => {
+			state.value.gameSelected = state.value.games.find(
+				(game) => game.id === actions.payload
 			)
 		},
 	},
 })
 
-export const { setProductsFilteredByCategory, setProductSelected } =
+export const { setGamesFilteredByPlataform, setGameSelected } =
 	shopSlice.actions
 
 export default shopSlice.reducer

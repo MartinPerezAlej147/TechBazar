@@ -1,0 +1,998 @@
+[
+	{
+		"id": 0,
+		"title": "Fallout 76",
+		"description": "An online action role-playing game developed by Bethesda Game Studios",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.0,
+		"stock": 60,
+		"platform": "Multi-platform",
+		"genre": "Action role-playing",
+		"thumbnail": "https://cdn.entries.clios.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/51/1427/36459/77503/4KwGELDsYu1alkHeALCD8sUZZ4tSXU6lApPi7ATncgo.jpg/4KwGELDsYu1alkHeALCD8sUZZ4tSXU6lApPi7ATncgo.jpg",
+		"images": [
+			"https://cdn.mos.cms.futurecdn.net/eeTrSnGWebiLW8oPZpA3V8.jpg",
+			"https://i.ytimg.com/vi/q5tx0lphQUs/maxresdefault.jpg",
+			"https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2021/08/21/Fallout-76-gameplay.jpg",
+			"https://variety.com/wp-content/uploads/2018/10/fallout-764-e1539010575939.png?w=1000"
+		]
+	},
+	{
+		"id": 1,
+		"title": "The Legend of Zelda: Breath of the Wild",
+		"description": "An open-world action-adventure game developed by Nintendo",
+		"price": 59.99,
+		"discountPercentage": 10,
+		"rating": 4.8,
+		"stock": 120,
+		"platform": "Nintendo Switch",
+		"genre": "Action-adventure",
+		"thumbnail": "https://zelda.nintendo.com/breath-of-the-wild/assets/img/media/wallpaper-1-thumb.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/KvDGDbFoiQ0/maxresdefault.jpg",
+			"https://s3.amazonaws.com/prod-media.gameinformer.com/styles/thumbnail/s3/legacy-images/New%20Gameplay%20And%20Impressions%20For%20The%20Legend%20Of%20Zelda%3A%20Breath%20Of%20The%20Wild/ZeldaGameplay610.jpg",
+			"https://i.ytimg.com/vi/kCHlp1W1GQk/maxresdefault.jpg",
+			"https://assetsio.reedpopcdn.com/-1465996670901.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+			"https://i.ytimg.com/vi/IweIZOQ7W9U/hqdefault.jpg",
+			"https://assets1.ignimgs.com/thumbs/userUploaded/2016/6/14/snapszelda-breath-of-the-wild-gameplay-about-e3-2016-on-ign6x-1465925829132.jpg"
+		]
+	},
+	{
+		"id": 2,
+		"title": "The Witcher 3: Wild Hunt",
+		"description": "A story-driven open-world RPG developed by CD Projekt Red",
+		"price": 39.99,
+		"discountPercentage": 20,
+		"rating": 4.9,
+		"stock": 80,
+		"platform": "PlayStation 4",
+		"genre": "Action role-playing",
+		"thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6266a292-6155-4ffb-8164-98ff1e58e528/d92hdjb-b02dd947-1334-42e8-a19c-44261aa7c80b.png/v1/fill/w_1024,h_576,q_80,strp/the_witcher_3__wild_hunt__youtube_thumbnail__2__by_dyceus_d92hdjb-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNjI2NmEyOTItNjE1NS00ZmZiLTgxNjQtOThmZjFlNThlNTI4XC9kOTJoZGpiLWIwMmRkOTQ3LTEzMzQtNDJlOC1hMTljLTQ0MjYxYWE3YzgwYi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ylFVTBzNd1zzKJRi7M0pL4S2p4WyaMXpNBgj-zF_x_I",
+		"images": [
+			"https://i.ytimg.com/vi/xx8kQ4s5hCY/maxresdefault.jpg",
+			"https://assets-prd.ignimgs.com/2022/12/05/tw3ng-presspreviews-ps5-geralt-on-horseback-rgb-clean-web-1670225797669.png",
+			"https://i.ytimg.com/vi/xx8kQ4s5hCY/mqdefault.jpg",
+			"https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Watch%2035%20Minutes%20Of%20The%20Witcher%203%3A%20Wild%20Hunt%20Gameplay/w39.20610.jpg",
+			"https://i.ytimg.com/vi/BgJUL3nN4iI/maxresdefault.jpg",
+			"https://assetsio.reedpopcdn.com/-1402336722159.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+		]
+	},
+	{
+		"id": 3,
+		"title": "Red Dead Redemption 2",
+		"description": "An epic tale of life in America’s unforgiving heartland.",
+		"price": 49.99,
+		"discountPercentage": 15,
+		"rating": 4.7,
+		"stock": 100,
+		"platform": "Xbox One",
+		"genre": "Action-adventure",
+		"thumbnail": "https://cdna.artstation.com/p/assets/images/images/026/728/588/large/luis-leon-red-dex-luis-final.jpg?1589554596",
+		"images": [
+			"https://i.ytimg.com/vi/Ak9lA98lUx4/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/Tpg_wM1nUx66xLVGbSLSkScM0LY=/0x0:3840x2160/1200x675/filters:focal(1652x287:2266x901)/cdn.vox-cdn.com/uploads/chorus_image/image/61473239/red_dead_redemption_2_screenshot_066_3840.0.jpg",
+			"https://i.ytimg.com/vi/Dw_oH5oiUSE/maxresdefault.jpg",
+			"https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/09/16/rdr2-gameplay.jpg?quality=75&width=1200&auto=webp",
+			"https://i.ytimg.com/vi/8Z2lxtniFDQ/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/tzV6bCrM85xUdWBsKijIuJ4j5Jw=/0x0:3840x2160/1200x675/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/60781977/red_dead_redemption_2_dutchs_gang_3840.0.png"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Super Mario Odyssey",
+		"description": "A 3D platformer developed and published by Nintendo",
+		"price": 49.99,
+		"discountPercentage": 5,
+		"rating": 4.7,
+		"stock": 150,
+		"platform": "Nintendo Switch",
+		"genre": "Platformer",
+		"thumbnail": "https://nintendoeverything.com/wp-content/uploads/Switch_SuperMarioOdyssey_char_047.0.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/3PKjuzM0BTk/maxresdefault.jpg",
+			"https://s.yimg.com/ny/api/res/1.2/phWSb2JfYlb8pDqFXZrLKQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://s.yimg.com/os/en_US/News/BGR_News/super-mario-odyssey-e3-2017.jpg?quality=98&strip=all",
+			"https://i.ytimg.com/vi/tBACZ3KeoSw/maxresdefault.jpg",
+			"https://www.stealthgaming.net/wp-content/uploads/2023/03/Super-Mario-Odyssey-gameplay.webp",
+			"https://i.ytimg.com/vi/sgHDIUxR23E/maxresdefault.jpg",
+			"https://press-start.com.au/wp-content/uploads/2017/10/Super-Mario-Odyssey.png"
+		]
+	},
+	{
+		"id": 5,
+		"title": "God of War",
+		"description": "An action-adventure game developed by Santa Monica Studio",
+		"price": 39.99,
+		"discountPercentage": 10,
+		"rating": 4.8,
+		"stock": 90,
+		"platform": "PlayStation 4",
+		"genre": "Action-adventure",
+		"thumbnail": "https://c4.wallpaperflare.com/wallpaper/255/988/925/god-of-war-atreus-kratos-playstation-4-wallpaper-preview.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/ixllGOX0Evw/maxresdefault.jpg",
+			"https://blog.playstation.com/tachyon/2022/10/52d17fcc1863b983a4e3888430ee26f3fc43066b-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+			"https://i.ytimg.com/vi/2e-yAATMjBI/maxresdefault.jpg",
+			"https://images.hothardware.com/contentimages/article/3175/content/small_God-of-War-Its-On.jpg",
+			"https://assets-prd.ignimgs.com/2022/05/16/god-of-war-2018-1652716403586.jpg",
+			"https://blog.playstation.com/tachyon/2022/01/ca81fa0930eade4a425fec03bfa2aed8827bff7b.jpg?resize=1088%2C612&crop_strategy=smart"
+		]
+	},
+	{
+		"id": 6,
+		"title": "Cyberpunk 2077",
+		"description": "An open-world action-adventure story set in Night City",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.2,
+		"stock": 70,
+		"platform": "PC",
+		"genre": "Action role-playing",
+		"thumbnail": "https://sites.uwm.edu/digital-cultures-collaboratory/files/2020/12/Thumbnail-2.png",
+		"images": [
+			"https://i.ytimg.com/vi/mFk_ivrgPCA/maxresdefault.jpg",
+			"https://www.gamespot.com/a/uploads/original/1574/15747411/4192563-vlcscreenshot2023-09-14-03h17m59s069.jpg",
+			"https://i.ytimg.com/vi/Xk8Id06dcAQ/maxresdefault.jpg",
+			"https://blogs-images.forbes.com/erikkain/files/2018/08/Screenshot-225.png",
+			"https://i.ytimg.com/vi/Rx27KZJoVK4/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/zHsTB6iAk952TA8t8NNqHJv0JTM=/0x0:3840x2160/1200x800/filters:focal(1737x1070:2351x1684)/cdn.vox-cdn.com/uploads/chorus_image/image/61039985/cyberpunk_2077_screenshot_04_3840.0.jpg"
+		]
+	},
+	{
+		"id": 7,
+		"title": "Fortnite",
+		"description": "A battle royale game developed and published by Epic Games",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.3,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "Battle royale",
+		"thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/404/17bcfa184702173.Y3JvcCw5MjAsNzIwLDE4MCww.jpg",
+		"images": [
+			"https://cdn2.unrealengine.com/fortnite-falcon-scout-gameplay-2-1920x1080-65f8bb6b4dfd.jpg",
+			"https://i.ytimg.com/vi/OGQn5eUL2Gg/sddefault.jpg",
+			"https://cdn2.unrealengine.com/fneco-twitter-header-1500x500-15b7e9a0aaad.jpg",
+			"https://sm.ign.com/ign_nordic/gallery/l/lego-fortn/lego-fortnite-gameplay-screenshots_gmmm.jpg",
+			"https://i.ytimg.com/vi/x-Tt1Ixk8To/maxresdefault.jpg",
+			"https://assets-prd.ignimgs.com/2023/06/09/fortnitewilds-1686353306240.jpg?width=300&crop=1%3A1%2Csmart&auto=webp"
+		]
+	},
+	{
+		"id": 8,
+		"title": "Minecraft",
+		"description": "A sandbox video game developed and published by Mojang Studios",
+		"price": 26.95,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "Sandbox, survival",
+		"thumbnail": "https://pbs.twimg.com/media/ERZvTi7WAAAjjxG.jpg:large",
+		"images": [
+			"https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Survival.png/revision/latest/scale-to-width-down/427?cb=20220702034959",
+			"https://i.ytimg.com/vi/94HcXdpcJlI/hqdefault.jpg",
+			"https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Survival.png/revision/latest/scale-to-width-down/1200?cb=20220702034959",
+			"https://i.ytimg.com/vi/2CfO6M-WL48/maxresdefault.jpg",
+			"https://s2.dmcdn.net/v/TGmvb1XH_qTSzdv8P/x1080",
+			"https://i.ytimg.com/vi/yaL6XQZISq0/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 9,
+		"title": "Call of Duty: Warzone",
+		"description": "A free-to-play battle royale game developed by Infinity Ward",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.4,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "Battle royale",
+		"thumbnail": "https://i.dailymail.co.uk/1s/2020/03/31/17/26630954-0-image-a-15_1585672843351.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/dKpL_h7va4w/maxresdefault.jpg",
+			"https://www.nme.com/wp-content/uploads/2020/05/051320-Warzone-Activision.jpg",
+			"https://i.ytimg.com/vi/kq9N7iI6oGY/maxresdefault.jpg",
+			"https://cdn.mos.cms.futurecdn.net/nRbfE6iA55G5MYeULbMmvY.jpg",
+			"https://i.ytimg.com/vi/qRP0Znki_Fs/maxresdefault.jpg",
+			"https://www.denofgeek.com/wp-content/uploads/2020/03/call-of-duty-warzone.jpg?fit=1600%2C900"
+		]
+	},
+	{
+		"id": 10,
+		"title": "Grand Theft Auto V",
+		"description": "An action-adventure game developed by Rockstar North",
+		"price": 29.99,
+		"discountPercentage": 25,
+		"rating": 4.7,
+		"stock": 60,
+		"platform": "PlayStation 4",
+		"genre": "Action-adventure",
+		"thumbnail": "https://mpk732t12016clusterb.files.wordpress.com/2016/05/gta-5.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/vJWZo0yk_Ok/maxresdefault.jpg",
+			"https://assets-prd.ignimgs.com/2021/12/17/gta-5-button-2021-1639777058682.jpg?width=300&crop=1%3A1%2Csmart&auto=webp",
+			"https://i.ytimg.com/vi/TOxuNbXrO28/maxresdefault.jpg",
+			"https://media.gannett-cdn.com/img/963482463001/201307/21/963482463001_2536422591001_video-still-for-video-2536416708001.jpg?pubId=963482463001&width=660&height=371&format=pjpg&auto=webp",
+			"https://i.ytimg.com/vi/d74REG039Dk/maxresdefault.jpg",
+			"https://pbs.twimg.com/media/Ek7TXw9WMAIZVLA?format=jpg&name=4096x4096"
+		]
+	},
+	{
+		"id": 11,
+		"title": "Among Us",
+		"description": "A multiplayer social deduction game developed and published by InnerSloth",
+		"price": 4.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "Social deduction",
+		"thumbnail": "https://i.redd.it/n1dwemmq2jn51.png",
+		"images": [
+			"https://i.ytimg.com/vi/mXdeCWwc0uE/maxresdefault.jpg",
+			"https://www.innersloth.com/wp-content/uploads/2021/06/Guardian-Angel.png",
+			"https://i.ytimg.com/vi/Mj6tdAjFWOo/maxresdefault.jpg",
+			"https://www.pluggedin.com/wp-content/uploads/2020/10/Among-Us-WP-1024x587.jpg",
+			"https://i.ytimg.com/vi/VnSLX1slZsQ/maxresdefault.jpg",
+			"https://play-lh.googleusercontent.com/bfyFan_mu66a-QTUSsccNW5_uJqBKSt8mgRvaAznSDeq_wmY5LLExKN8BNsBARoDnQ=w526-h296-rw"
+		]
+	},
+	{
+		"id": 12,
+		"title": "Animal Crossing: New Horizons",
+		"description": "A social simulation game developed and published by Nintendo",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.9,
+		"stock": 100,
+		"platform": "Nintendo Switch",
+		"genre": "Social simulation",
+		"thumbnail": "https://embed-ssl.wistia.com/deliveries/f2bc3b8576442183fa62ef8354218415.webp?image_crop_resized=640x480",
+		"images": [
+			"https://i.ytimg.com/vi/EScckZ95_uc/maxresdefault.jpg",
+			"https://assets1.ignimgs.com/2020/05/05/animal-crossing-new-horizons---button-fin-1588641487551.jpg?width=300&crop=1%3A1%2Csmart&auto=webp",
+			"https://i.ytimg.com/vi/Ru_M2uxtzPI/maxresdefault.jpg",
+			"https://assets1.ignimgs.com/thumbs/userUploaded/2019/6/11/e32019-nintendo-animal-crossing-switch-screenshot-10-1560282676049.jpg",
+			"https://animalcrossingworld.com/wp-content/uploads/2020/03/animal-crossing-new-horizons-march-5-previews-videos-banner-790x420.jpg",
+			"https://variety.com/wp-content/uploads/2019/06/animal-crossing-new-horizons-gameplay.png"
+		]
+	},
+	{
+		"id": 13,
+		"title": "Assassin's Creed Valhalla",
+		"description": "An action role-playing game developed and published by Ubisoft",
+		"price": 59.99,
+		"discountPercentage": 10,
+		"rating": 4.7,
+		"stock": 80,
+		"platform": "PlayStation 5",
+		"genre": "Action role-playing",
+		"thumbnail": "https://www.cnet.com/a/img/resize/98a043645db12442cc11c318d051d715910cb916/hub/2020/11/09/380a69c4-d862-4477-9615-8a491faa4baf/1588874727-assassin39s-creed-valhalla-breaks-into-xbox-series-x-first-trailer.jpg?auto=webp&fit=crop&height=675&width=1200",
+		"images": [
+			"https://i.ytimg.com/vi/vCmS-HbtNfs/maxresdefault.jpg",
+			"https://xxboxnews.blob.core.windows.net/prod/sites/2/2020/05/ACValhallaTrailer_HERO.jpg",
+			"https://i.ytimg.com/vi/XwuNWh8vIdQ/maxresdefault.jpg",
+			"https://www.gameinformer.com/sites/default/files/styles/full/public/2020/11/08/64cf8408/04_0.jpg",
+			"https://i.ytimg.com/vi/9KDBQGpZ0V0/maxresdefault.jpg",
+			"https://assets-prd.ignimgs.com/2021/12/10/acv-dor-mythicalexploration-1639172040061.jpg"
+		]
+	},
+	{
+		"id": 14,
+		"title": "FIFA 22",
+		"description": "A football simulation video game published by Electronic Arts",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 70,
+		"platform": "PlayStation 5",
+		"genre": "Sports",
+		"thumbnail": "https://pbs.twimg.com/media/FAELPU3XMAEVAFw.jpg:large",
+		"images": [
+			"https://i.ytimg.com/vi/JGuz_CkVclo/maxresdefault.jpg",
+			"https://www.operationsports.com/wp-content/uploads/2021/09/fifa-22-gameplay.jpg",
+			"https://i.ytimg.com/vi/XlrJ_urwp-Y/maxresdefault.jpg",
+			"https://mms.businesswire.com/media/20210711005018/en/890552/4/EAS_FIFA22_GEN5.jpg",
+			"https://i.ytimg.com/vi/xIuoP6EA3GM/maxresdefault.jpg",
+			"https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-21/news/videos/2021/07/9f43db4e-01b4-e632-2640-aa85ead74c1f.youtube/subassets/poster.jpg.adapt.crop16x9.1920w.jpg"
+		]
+	},
+	{
+		"id": 15,
+		"title": "Rocket League",
+		"description": "A vehicular soccer video game developed and published by Psyonix",
+		"price": 19.99,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": 120,
+		"platform": "Multi-platform",
+		"genre": "Sports",
+		"thumbnail": "https://i.ytimg.com/vi/k0OMcK6dMTs/maxresdefault.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/riilLCDgf-s/maxresdefault.jpg",
+			"https://external-preview.redd.it/help-me-rank-up-platinum-3-2v2-gameplay-v0-cR6A1-3XiJ_w8GUoX53gBXHnPmjWgps6xCA0wfXgVnI.png?format=pjpg&auto=webp&s=37fd8994f6a10e4ee610ddc4f011c5ca289fc8b3",
+			"https://i.ytimg.com/vi/1knKmT4N-ZY/maxresdefault.jpg",
+			"https://www.teamvvv.com/wp-content/uploads/2015/11/rocket_league_time_warp-846x443.jpg",
+			"https://i.ytimg.com/vi/beJQdHcmJ78/maxresdefault.jpg",
+			"https://i.redd.it/jxgol4y22f4a1.png"
+		]
+	},
+	{
+		"id": 16,
+		"title": "Apex Legends",
+		"description": "A free-to-play battle royale game developed by Respawn Entertainment",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "Battle royale",
+		"thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/404/05367a133968801.Y3JvcCwxMDYyLDgzMSwyMzEsMA.png",
+		"images": [
+			"https://i.ytimg.com/vi/UPtoIy-oPWQ/maxresdefault.jpg",
+			"https://assetsio.reedpopcdn.com/apex-legends-new-gameplay-trailer-showcases-control-mode-reworked-olympus-map-1643653689146.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+			"https://i.ytimg.com/vi/LcsOSIXc9cg/maxresdefault.jpg",
+			"https://www.videogameschronicle.com/files/2021/03/Apex-Legends-Season-8.jpg",
+			"https://i.ytimg.com/vi/T4KfCE3AqNE/maxresdefault.jpg",
+			"https://assets-global.website-files.com/5f6e2764d26f3c5244a5b664/650417e7decc6382518f21f2_in-game%20-%20apex.png"
+		]
+	},
+	{
+		"id": 17,
+		"title": "Overwatch",
+		"description": "A team-based multiplayer first-person shooter developed and published by Blizzard Entertainment",
+		"price": 19.99,
+		"discountPercentage": 0,
+		"rating": 4.4,
+		"stock": 100,
+		"platform": "Multi-platform",
+		"genre": "First-person shooter",
+		"thumbnail": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/173101880/original/b9d00cc163085d5765590b5daa4b5de0d8d16c1f/3d-overwatch-thumbnails-for-your-youtube-videos.jpg",
+		"images": [
+			"https://dbknews.s3.amazonaws.com/uploads/2022/05/ow_gp.png",
+			"https://i.ytimg.com/vi/QxTK8zzGiHM/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/KqJhJztXZi2P3iCgxIzDD4PTPow=/0x0:1920x1080/1400x788/filters:focal(960x540:961x541)/cdn.vox-cdn.com/uploads/chorus_asset/file/19743154/OVR_PR_Switch_GameplayShots_XA_036_A.png",
+			"https://i.ytimg.com/vi/Np1hPT2z64A/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/V10MNvfd1NzlJtUMU_Fyr0j3C0g=/0x0:3840x2160/1200x675/filters:focal(1508x617:2122x1231)/cdn.vox-cdn.com/uploads/chorus_image/image/71453302/Polygon_Exclusive___JQ_First_Person.0.jpg",
+			"https://i.ytimg.com/vi/5pNcf7j6j2A/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 18,
+		"title": "Destiny 2",
+		"description": "A free-to-play online-only multiplayer first-person shooter game developed by Bungie",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.4,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "First-person shooter",
+		"thumbnail": "https://i.ytimg.com/vi/fmRRbRnuJc8/maxresdefault.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/FhAOsQ8ujig/maxresdefault.jpg",
+			"https://media.wired.com/photos/59b719caece83a2f6afeee0f/4:3/w_1440,h_1080,c_limit/d2_sony_exclusive_hero-FA.jpg",
+			"https://i.ytimg.com/vi/4_Fn4stelMg/maxresdefault.jpg",
+			"https://hothardware.com/ContentImages/Article/2683/content/small_Destiny-2_4.jpg",
+			"https://i.ytimg.com/vi/8N48bVr0MPQ/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/VtKARZm3bm2lKXa9ABZfTeSYeqw=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/8887275/Beta_Screenshot_2017_07_20_15_49_02.png"
+		]
+	},
+	{
+		"id": 19,
+		"title": "League of Legends",
+		"description": "A multiplayer online battle arena game developed and published by Riot Games",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": "Unlimited",
+		"platform": "PC",
+		"genre": "MOBA",
+		"thumbnail": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/133672983/original/7581c51aa39763b0106e8d9914d1cf0fc11b2596/do-league-of-legends-youtube-thumbnails.png",
+		"images": [
+			"https://i.ytimg.com/vi/pSmc4C1KXrs/maxresdefault.jpg",
+			"https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt5c7e20ba1bcc0a56/5f4df068b4ebcc25c4c57a4b/FunCompetition_Poster.jpg",
+			"https://i.ytimg.com/vi/MV2rRcskn4Y/maxresdefault.jpg",
+			"https://www.esports.net/wp-content/uploads/2022/06/LoL.jpg",
+			"https://i.ytimg.com/vi/fJVQNAEfaNM/maxresdefault.jpg",
+			"https://bothgunsblazingblog.files.wordpress.com/2013/11/league-of-legends-2.jpg"
+		]
+	},
+	{
+		"id": 20,
+		"title": "Counter-Strike 2",
+		"description": "A multiplayer first-person shooter game developed by Valve and Hidden Path Entertainment",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": "Unlimited",
+		"platform": "PC",
+		"genre": "First-person shooter",
+		"thumbnail": "https://staticg.sportskeeda.com/editor/2023/03/82782-16796543791041-1920.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/iErqey8ePd8/maxresdefault.jpg",
+			"https://mp1st.com/wp-content/uploads/2023/03/counter-strike-2-gameplay.png",
+			"https://i.ytimg.com/vi/H1O89ryUGic/maxresdefault.jpg",
+			"https://assetsio.reedpopcdn.com/20230328130540_1.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+			"https://i.ytimg.com/vi/KEOPWm4Obw8/maxresdefault.jpg",
+			"https://static.standard.co.uk/2023/03/23/12/Counter-Strike%202%20screenshot.png?width=1200"
+		]
+	},
+	{
+		"id": 21,
+		"title": "The Elder Scrolls V: Skyrim",
+		"description": "An action role-playing game developed by Bethesda Game Studios",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.8,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Action role-playing",
+		"thumbnail": "https://p1.hiclipart.com/preview/379/50/565/elder-scrolls-v-skyrim-icon-skyrim-png-icon-thumbnail.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/oSL-r9AIEEU/maxresdefault.jpg",
+			"https://cdn.wccftech.com/wp-content/uploads/2016/06/The-Elder-Scrolls-V-Skyrim-Definitive-Edition.jpg",
+			"https://i.ytimg.com/vi/Fpj69DjvbAg/maxresdefault.jpg",
+			"https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-elder-scrolls-5-skyrim/e/e6/Dogb610.jpg?width=1280",
+			"https://i.ytimg.com/vi/-NhevGw_qBw/maxresdefault.jpg",
+			"https://images.gamersyde.com/image_stream-17065-2190_0002.jpg"
+		]
+	},
+	{
+		"id": 22,
+		"title": "Super Smash Bros. Ultimate",
+		"description": "A crossover fighting game developed by Bandai Namco Studios and Sora Ltd.",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.9,
+		"stock": 80,
+		"platform": "Nintendo Switch",
+		"genre": "Fighting",
+		"thumbnail": "https://static.wikia.nocookie.net/siivagunner/images/5/50/Super_Smash_Bros._Ultimate.jpg/revision/latest?cb=20180726095055",
+		"images": [
+			"https://www.smashbros.com/assets_v2/img/howtoplay/img_howtoplay0501_pc.jpg",
+			"https://assets1.ignimgs.com/2018/06/13/super-smash-btros-ultimate---button-0001-1528851298611.jpg?width=300&crop=1%3A1%2Csmart&auto=webp",
+			"https://www.smashbros.com/assets_v2/img/howtoplay/img_howtoplay0401_sp.jpg",
+			"https://assets1.ignimgs.com/thumbs/userUploaded/2021/10/5/supersmashbrosultimatesorafullgameplaydemonstrationblogroll-1633447353998.jpg",
+			"https://i.ytimg.com/vi/5r-snDBcXJE/maxresdefault.jpg",
+			"https://img.bleacherreport.net/img/images/photos/003/779/662/c0b80527da6c7332edc913f69062392e_crop_exact.jpg?w=1200&h=1200&q=75"
+		]
+	},
+	{
+		"id": 23,
+		"title": "The Last of Us Part II",
+		"description": "An action-adventure game developed by Naughty Dog",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 90,
+		"platform": "PlayStation 4",
+		"genre": "Action-adventure",
+		"thumbnail": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2020/01/the-last-of-us-part-2-II-pc-port-naughty-dog.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/YqCvy_VmW4E/maxresdefault.jpg",
+			"https://s3.us-east-1.amazonaws.com/nd.images/uploads/TLOUPII_Grounded_Screenshot_02.jpg",
+			"https://i.ytimg.com/vi/4XqN_hMlFyY/maxresdefault.jpg",
+			"https://static01.nyt.com/images/2020/06/21/business/19lastofus-conversation-01/19lastofus-conversation-01-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
+			"https://assets1.ignimgs.com/thumbs/userUploaded/2021/5/19/tlou2ps5br-1621454345686.jpg",
+			"https://i.ytimg.com/vi/orDRnUXu-Rw/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 24,
+		"title": "Doom Eternal",
+		"description": "A first-person shooter game developed by id Software",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 60,
+		"platform": "Multi-platform",
+		"genre": "First-person shooter",
+		"thumbnail": "https://www.gamingonlinux.com/uploads/articles/tagline_images/1825272924id15775gol.jpg",
+		"images": [
+			"https://www.hollywoodreporter.com/wp-content/uploads/2019/06/doom_eternal-publicity-h_2019.jpg?w=1296",
+			"https://i.ytimg.com/vi/6BiY0Yxav-M/maxresdefault.jpg",
+			"https://www.gamespace.com/wp-content/uploads/2019/05/doom-enteral-new.jpg",
+			"https://i.ytimg.com/vi/VOIm3aVZ5q8/maxresdefault.jpg",
+			"https://cdn.wccftech.com/wp-content/uploads/2020/02/DOOM-Eternal-Marauder.jpg",
+			"https://i.ytimg.com/vi/OVIYeCy5rno/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 25,
+		"title": "Mortal Kombat 11",
+		"description": "A fighting game developed by NetherRealm Studios",
+		"price": 49.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Fighting",
+		"thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3203bc31-bd58-4f19-b002-e7abed28e5b3/defvdg9-6a6bedd6-09e5-4992-92b5-e81724202505.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMyMDNiYzMxLWJkNTgtNGYxOS1iMDAyLWU3YWJlZDI4ZTViM1wvZGVmdmRnOS02YTZiZWRkNi0wOWU1LTQ5OTItOTJiNS1lODE3MjQyMDI1MDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J0uHaJvnY8YCa3diruh5LF9GHbJPbdOU5mj9iMHYuXU",
+		"images": [
+			"https://i.ytimg.com/vi/XW9Ek5NeEME/maxresdefault.jpg",
+			"https://assets1.ignimgs.com/2020/05/07/mortal-kombat-11-aftermath-49859516643-o-1588816412793.jpg",
+			"https://i.ytimg.com/vi/OkyXD5x9QRU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoOcojSbJXlLKhxp0H3vZ8adw6fA",
+			"https://sm.pcmag.com/t/pcmag_me/review/m/mortal-kom/mortal-kombat-11-for-pc-review_8vze.1920.jpg",
+			"https://i.ytimg.com/vi/QOkBRJEcOEw/maxresdefault.jpg",
+			"https://preview.redd.it/what-would-be-the-top-gameplay-changes-you-would-make-to-v0-2a7pwk3n9eka1.jpg?auto=webp&s=d37bb66a4af1d79591dec5acccfa170a7c7449e3"
+		]
+	},
+	{
+		"id": 26,
+		"title": "Persona 5",
+		"description": "A role-playing game developed by Atlus",
+		"price": 29.99,
+		"discountPercentage": 0,
+		"rating": 4.9,
+		"stock": 80,
+		"platform": "PlayStation 4",
+		"genre": "Role-playing",
+		"thumbnail": "https://assets-prd.ignimgs.com/2022/10/21/personablogroll-thumbnail-1666349446827.jpg",
+		"images": [
+			"https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2023/07/Persona_5_Tactica_Gameplay_Details_Feature.jpg",
+			"https://i.ytimg.com/vi/f3eILFGH3bI/maxresdefault.jpg",
+			"https://personacentral.com/wp-content/uploads/2022/08/Persona-5-Royal-Remastered.jpg",
+			"https://i.ytimg.com/vi/mz0g9hxq7L8/maxresdefault.jpg",
+			"https://i.redd.it/9uqlyotepz631.jpg",
+			"https://i.ytimg.com/vi/h84SWybh4Hw/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 27,
+		"title": "Halo Infinite",
+		"description": "A first-person shooter game developed by 343 Industries",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 70,
+		"platform": "Xbox Series X",
+		"genre": "First-person shooter",
+		"thumbnail": "https://editors.dexerto.com/wp-content/uploads/2021/11/24/Halo-infinite-Campaign-thumbnail.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/HZtc5-syeAk/maxresdefault.jpg",
+			"https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/ss_5776b0169cc282b3b946b1c1fecae560a32f4cb5.1920x1080.jpg?t=1706721794",
+			"https://cdn.neowin.com/news/images/uploaded/2021/10/1635168859_location.jpg",
+			"https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/ss_7274fc9e9cbd5a0cd3cadfbae4bf0c732aeb7507.1920x1080.jpg?t=1706721794",
+			"https://cdn.mos.cms.futurecdn.net/cV3aorquWrgC889CbaicpL.jpg",
+			"https://i.ytimg.com/vi/JeBcpAC5K9U/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 28,
+		"title": "The Sims 4",
+		"description": "A life simulation video game developed by Maxis and published by Electronic Arts",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 100,
+		"platform": "Multi-platform",
+		"genre": "Life simulation",
+		"thumbnail": "https://i.ytimg.com/vi/4RjhFucgMTw/maxresdefault.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/pXLEAHpzFks/maxresdefault.jpg",
+			"https://cdn.mos.cms.futurecdn.net/8f8586ef709917ca97da14597bc89dc4.jpg",
+			"https://i.ytimg.com/vi/ICmP6HDXLKc/maxresdefault.jpg",
+			"https://www.cnet.com/a/img/resize/53ca654e1cef3165274787cc72b10e47d8febdd1/hub/2022/10/17/9264c944-9ccf-4e20-bf77-7d7e885ebd77/bb-mode-1.jpg?auto=webp&width=1200",
+			"https://answers.ea.com/t5/image/serverpage/image-id/150977i55B6D1DF8ABC7894?v=v2",
+			"https://i.ytimg.com/vi/9TwSadUoS4U/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 29,
+		"title": "Diablo III",
+		"description": "An action role-playing game developed and published by Blizzard Entertainment",
+		"price": 19.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 120,
+		"platform": "Multi-platform",
+		"genre": "Action role-playing",
+		"thumbnail": "https://p7.hiclipart.com/preview/21/392/867/heroes-of-the-storm-diablo-iii-reaper-of-souls-tyrael-overwatch-playstation-3-barbarian-thumbnail.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/Q17FDfU7-ds/maxresdefault.jpg",
+			"https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/A%20New%20High%20Water%20Mark%20For%20Action/RPGs/review610.jpg",
+			"https://i.ytimg.com/vi/qcEfEDilthg/maxresdefault.jpg",
+			"https://www.digitaltrends.com/wp-content/uploads/2013/09/Diablo-3-console-screenshot-24.jpg?fit=720%2C720&p=1",
+			"https://i.ytimg.com/vi/9bhZD_wVeso/maxresdefault.jpg",
+			"https://i.kym-cdn.com/photos/images/original/000/305/401/2d3.png"
+		]
+	},
+	{
+		"id": 30,
+		"title": "Genshin Impact",
+		"description": "An action role-playing game developed and published by miHoYo",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": "Unlimited",
+		"platform": "Multi-platform",
+		"genre": "Action role-playing",
+		"thumbnail": "https://assets1.ignimgs.com/thumbs/userUploaded/2020/10/29/genshin-impact-11-announcement-trailer-thumbnail--1603967774151.jpg?width=1280",
+		"images": [
+			"https://assets-prd.ignimgs.com/2022/08/24/genshin-dendroculus-1-1661315453628.jpg",
+			"https://i.ytimg.com/vi/737jmngcVOQ/maxresdefault.jpg",
+			"https://webstatic.hoyoverse.com/upload/op-public/2023/08/22/c29299a3798016b4e85d3c04ea7e8ad7_7930011754049764341.png",
+			"https://i.ytimg.com/vi/AgC2JLuG62U/maxresdefault.jpg",
+			"https://play-lh.googleusercontent.com/71h7kH0CoSpZMM29eVXElOku5quNzevSYKlJvrCWgxOtMbHdkpWUeJmoBhCC62m-02o=w526-h296-rw",
+			"https://i.ytimg.com/vi/Wz1BZLGWAXA/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 31,
+		"title": "Star Wars Jedi: Fallen Order",
+		"description": "An action-adventure game developed by Respawn Entertainment",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 80,
+		"platform": "Multi-platform",
+		"genre": "Action-adventure",
+		"thumbnail": "https://i.ytimg.com/vi/o_1bPQnD1gs/maxresdefault.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/uqzSuZ1zb5Q/maxresdefault.jpg",
+			"https://i.redd.it/js7z7umqm5041.jpg",
+			"https://i.ytimg.com/vi/3An3wXc4Kmk/maxresdefault.jpg",
+			"https://compote.slate.com/images/94c62085-f125-4c95-a4cd-7e0c7a2fe102.jpeg?crop=1620%2C1080%2Cx0%2Cy0",
+			"https://i.ytimg.com/vi/C-tIJPaFF1I/sddefault.jpg",
+			"https://media.contentapi.ea.com/content/dam/eacom/jedi-fallen-order/images/2019/06/star-wars-jedi-gameplay-thumbnail.jpg.adapt.crop16x9.652w.jpg"
+		]
+	},
+	{
+		"id": 32,
+		"title": "The Witcher 3: Wild Hunt - Complete Edition",
+		"description": "A story-driven open-world RPG developed by CD Projekt Red",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.9,
+		"stock": 100,
+		"platform": "Nintendo Switch",
+		"genre": "Action role-playing",
+		"thumbnail": "https://cdn2.unrealengine.com/egs-thewitcher3wildhuntcompleteedition-cdprojektred-g1c-00-1920x1080-ee8358cd8883.jpg?h=270&quality=medium&resize=1&w=480",
+		"images": [
+			"https://i.ytimg.com/vi/xx8kQ4s5hCY/maxresdefault.jpg",
+			"https://assets-prd.ignimgs.com/2022/12/05/tw3ng-presspreviews-ps5-geralt-on-horseback-rgb-clean-web-1670225797669.png",
+			"https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f",
+			"https://i0.wp.com/waytoomany.games/wp-content/uploads/2022/12/The-Witcher-3_-Wild-Hunt-Complete-Edition-2022-12-12-19-58-39.png?ssl=1",
+			"https://i.ytimg.com/vi/q_OLJuwlqh0/maxresdefault.jpg",
+			"https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1693590732"
+		]
+	},
+	{
+		"id": 33,
+		"title": "Sekiro: Shadows Die Twice",
+		"description": "An action-adventure game developed by FromSoftware",
+		"price": 49.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Action-adventure",
+		"thumbnail": "https://legacy.gamegator.net/thumbnails/blog-sekiro-die-twice-small.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/Z4k9JD4oeNQ/maxresdefault.jpg",
+			"https://www.hollywoodreporter.com/wp-content/uploads/2019/03/sekiro_gamescom01-h_2019.jpg?w=1296",
+			"https://i.ytimg.com/vi/a2TjEl0l_FU/maxresdefault.jpg",
+			"https://blog.activision.com/content/dam/atvi/activision/atvi-touchui/blog/sekiro/feature/Sekiro_Overview_Trailer_01.jpg",
+			"https://cdn.images.express.co.uk/img/dynamic/143/590x/1094753_1.jpg",
+			"https://sm.ign.com/t/ign_gr/video/6/6-minutes-/6-minutes-of-sekiro-shadows-die-twice-gameplay-gamecom-2018_rtxd.1280.jpg"
+		]
+	},
+	{
+		"id": 34,
+		"title": "Horizon Zero Dawn",
+		"description": "An action role-playing game developed by Guerrilla Games",
+		"price": 19.99,
+		"discountPercentage": 0,
+		"rating": 4.8,
+		"stock": 120,
+		"platform": "PlayStation 4",
+		"genre": "Action role-playing",
+		"thumbnail": "https://pbs.twimg.com/media/C6ColqyUoAAmeHH.jpg:large",
+		"images": [
+			"https://i.ytimg.com/vi/vqfRl6uBbdI/maxresdefault.jpg",
+			"https://cdn.80.lv/api/upload/post/5506/images/5d2cfec71465d/widen_1220x0.jpg",
+			"https://i.ytimg.com/vi/lwI6-jKlsO0/maxresdefault.jpg",
+			"https://ichef.bbci.co.uk/news/976/cpsprodpb/EB88/production/_94869206_gameplay5.jpg",
+			"https://i.ytimg.com/vi/yKLwbkbWQpc/maxresdefault.jpg",
+			"https://ichef.bbci.co.uk/news/976/cpsprodpb/2A18/production/_94867701_gameplay.jpg"
+		]
+	},
+	{
+		"id": 35,
+		"title": "NBA 2K22",
+		"description": "A basketball simulation video game published by 2K Sports",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Sports",
+		"thumbnail": "https://i.ytimg.com/vi/VAd0VXm4GFM/maxresdefault.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/uVPkZubI8Ps/maxresdefault.jpg",
+			"https://live.staticflickr.com/65535/51414437990_c96db5138c_h.jpg",
+			"https://i.ytimg.com/vi/bB1GBythn3U/maxresdefault.jpg",
+			"https://static1.srcdn.com/wordpress/wp-content/uploads/2021/08/NBA-2k22-gameplay-trailer-footage.jpg",
+			"https://i.ytimg.com/vi/y6zKCvwHoss/maxresdefault.jpg",
+			"https://img.bleacherreport.net/img/images/photos/003/917/516/338cee0ecf2e47782eb62382309506d2_crop_north.jpg?1631756536&w=3072&h=2048"
+		]
+	},
+	{
+		"id": 36,
+		"title": "World of Warcraft",
+		"description": "A massively multiplayer online role-playing game developed by Blizzard Entertainment",
+		"price": 19.99,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": "Unlimited",
+		"platform": "PC",
+		"genre": "MMORPG",
+		"thumbnail": "https://community.tm/attachments/thumbnailtemplates-061-world-of-warcraft-1-2-jpg.15881/",
+		"images": [
+			"https://i.ytimg.com/vi/d26Kl98_qo8/maxresdefault.jpg",
+			"https://media.licdn.com/dms/image/D4E12AQE9EYD__coKdA/article-cover_image-shrink_720_1280/0/1670336795178?e=2147483647&v=beta&t=IwtrdvEtO6TFB2F7naaHHkvVZixOoBvA7mFPHEin3JI",
+			"https://i.ytimg.com/vi/SGSr8CMiiXU/maxresdefault.jpg",
+			"https://cf.geekdo-images.com/G18hq7ONuqIyeGgU0Zlorw__opengraph/img/pOZ7HpZ_lBkkw9U_w8eJBvU8cBo=/fit-in/1200x630/filters:strip_icc()/pic756989.jpg",
+			"https://i.ytimg.com/vi/PoKhls0NIsA/maxresdefault.jpg",
+			"https://passel2.unl.edu/image.php?uuid=c3c74d933908&extension=jpg&display=MEDIUM&v=1663680215"
+		]
+	},
+	{
+		"id": 37,
+		"title": "StarCraft II",
+		"description": "A real-time strategy game developed and published by Blizzard Entertainment",
+		"price": 0,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": "Unlimited",
+		"platform": "PC",
+		"genre": "Real-time strategy",
+		"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Korean_professional_Starcraft_2_players.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/Eg-jIWWemeQ/maxresdefault.jpg",
+			"https://assetsio.reedpopcdn.com/stormgate-c.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+			"https://i.ytimg.com/vi/K1bQuMnMqKY/maxresdefault.jpg",
+			"https://www.researchgate.net/publication/261520479/figure/fig6/AS:669658696933402@1536670483826/A-screenshot-from-the-game-StarCraft-2-doi101371-journalpone0094215g001.jpg",
+			"https://i.ytimg.com/vi/Rdy_eDgJcTc/maxresdefault.jpg",
+			"https://static.wikia.nocookie.net/starcraft/images/c/cb/Screenshot_SC2_DevGame1.jpg/revision/latest?cb=20080511221659"
+		]
+	},
+	{
+		"id": 38,
+		"title": "Rust",
+		"description": "A multiplayer-only survival video game developed by Facepunch Studios",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": "Unlimited",
+		"platform": "PC",
+		"genre": "Survival",
+		"thumbnail": "https://preview.redd.it/onnhpc1f58a91.jpg?width=1920&format=pjpg&auto=webp&s=fdb7dcdfb1b97e398dfbe2ae42bfd5bf380954bb",
+		"images": [
+			"https://assets1.ignimgs.com/2021/03/12/rust-2-1615584027683.png",
+			"https://www.trueachievements.com/imgs/111372/rust-console-edition-beta-testing-gameplay-trailer-xbox-one-x-april-release.jpg",
+			"https://assets1.ignimgs.com/vid/thumbnails/user/2014/01/07/RUST_BOW.jpg",
+			"https://i.ytimg.com/vi/txZy7q1oN4c/maxresdefault.jpg",
+			"https://cdn.openart.ai/stable_diffusion/8f00306a3817417efe54b7d375c763de87555015_2000x2000.webp",
+			"https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Collecting_wood_in_Rust.jpeg/280px-Collecting_wood_in_Rust.jpeg"
+		]
+	},
+	{
+		"id": 39,
+		"title": "Tom Clancy's Rainbow Six Siege",
+		"description": "A tactical shooter video game developed by Ubisoft Montreal",
+		"price": 19.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Tactical shooter",
+		"thumbnail": "https://i.pinimg.com/originals/89/f1/67/89f167e1aabdbd77e3657b25c29799c3.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/6GHQgcAtPTE/maxresdefault.jpg",
+			"https://images.gamersyde.com/image_stream-40858-2991_0002.jpg",
+			"https://i.ytimg.com/vi/cV5YDWmzZ9E/maxresdefault.jpg",
+			"https://images.gamersyde.com/image_stream-39607-2991_0002.jpg",
+			"https://i.ytimg.com/vi/gjpxM5fsAns/maxresdefault.jpg",
+			"https://m.media-amazon.com/images/M/MV5BMGM3NTliMzItMmU0Yi00MDU0LThiNGMtMzI0MzNlM2FlNmNiXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg"
+		]
+	},
+	{
+		"id": 40,
+		"title": "Hades",
+		"description": "An action role-playing roguelike game developed and published by Supergiant Games",
+		"price": 24.99,
+		"discountPercentage": 0,
+		"rating": 4.8,
+		"stock": 80,
+		"platform": "Multi-platform",
+		"genre": "Roguelike",
+		"thumbnail": "https://preview.redd.it/quick-thumbnail-pit-vs-zagreus-kid-icarus-hades-tn-made-by-v0-zyp8ev02wj3b1.jpg?width=640&crop=smart&auto=webp&s=b7c0a558ad68975e2779e9de6917f5cb9dda433b",
+		"images": [
+			"https://i.ytimg.com/vi/1V-g2Xd70A0/maxresdefault.jpg",
+			"https://assets1.ignimgs.com/2020/09/29/switch-hades-screenshot-1-1601347618163.jpg",
+			"https://miro.medium.com/v2/resize:fit:1400/1*Yd70TNHvrNbb43NEX2b7kA.jpeg",
+			"https://assets1.ignimgs.com/2020/09/29/switch-hades-screenshot-4-1601347618195.jpg",
+			"https://i.ytimg.com/vi/Zpo2UgLkLxo/maxresdefault.jpg",
+			"https://assets1.ignimgs.com/2020/09/29/switch-hades-screenshot-3-1601347618169.jpg"
+		]
+	},
+	{
+		"id": 41,
+		"title": "Crash Bandicoot 4: It's About Time",
+		"description": "A platform game developed by Toys for Bob",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Platformer",
+		"thumbnail": "https://portforward.com/crash-bandicoot-4-its-about-time/crash-bandicoot-4-its-about-time-header-small.webp",
+		"images": [
+			"https://i.ytimg.com/vi/Y9w4FyO5hOU/maxresdefault.jpg",
+			"https://www.nme.com/wp-content/uploads/2020/06/Crash-Bandicoot-4-1.jpg",
+			"https://i.ytimg.com/vi/p4Mz5suUzDw/maxresdefault.jpg",
+			"https://sm.ign.com/t/ign_nordic/video/c/crash-band/crash-bandicoot-4-its-about-time-ps5-features-and-gameplay-t_14sg.1200.jpg",
+			"https://i.ytimg.com/vi/4vuulZaWFvU/maxresdefault.jpg",
+			"https://blog.activision.com/content/dam/atvi/activision/atvi-touchui/blog/crash-bandicoot/quantum/C4-SOP-TOUT.jpg"
+		]
+	},
+	{
+		"id": 42,
+		"title": "Final Fantasy VII Remake",
+		"description": "A role-playing game developed and published by Square Enix",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 80,
+		"platform": "PlayStation 4",
+		"genre": "Role-playing",
+		"thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac6ec624-05f0-4fb3-a338-4e6b2737ffad/de76xjp-5c088295-4aca-4642-b15c-42cf5d6ef004.png/v1/fill/w_1280,h_1440,q_80,strp/my_final_fantasy_vii_remake_let_s_play_thumbnails_by_flyingprincess_de76xjp-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTQ0MCIsInBhdGgiOiJcL2ZcL2FjNmVjNjI0LTA1ZjAtNGZiMy1hMzM4LTRlNmIyNzM3ZmZhZFwvZGU3NnhqcC01YzA4ODI5NS00YWNhLTQ2NDItYjE1Yy00MmNmNWQ2ZWYwMDQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.JaNnTlbxR5F5XVJpG6fO1W7LLpPkbDmqt9Jp5ijqNeI",
+		"images": [
+			"https://i.ytimg.com/vi/DGvIpNGj1hs/maxresdefault.jpg",
+			"https://oyster.ignimgs.com/mediawiki/apis.ign.com/final-fantasy-vii-remake/6/62/Final_Fantasy_VII_Remake_-_Walkthrough_-_Chapter_18_-_Lead_Image.png?width=1280",
+			"https://i.ytimg.com/vi/43Jt-GG1PFA/maxresdefault.jpg",
+			"https://oyster.ignimgs.com/mediawiki/apis.ign.com/final-fantasy-vii-remake/b/b1/Final_Fantasy_VII_Remake_-_Walkthrough_-_Chapter_15_-_40.png?width=1280",
+			"https://i.ytimg.com/vi/e9LK-n3Eg_w/maxresdefault.jpg",
+			"https://assets.vg247.com/current//2017/02/final_fantasy_7_remake2.jpg"
+		]
+	},
+	{
+		"id": 43,
+		"title": "Death Stranding",
+		"description": "An action game developed by Kojima Productions",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.5,
+		"stock": 90,
+		"platform": "PlayStation 4",
+		"genre": "Action",
+		"thumbnail": "https://1.bp.blogspot.com/-GM2cJCh5dvY/XX7q5ZwAKSI/AAAAAAAANd8/vuxC1GYqANoaQuOXts0qi009YyciWjorwCLcBGAsYHQ/w919/death-stranding-poster-uhdpaper.com-4K-5.604-wp.thumbnail.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/5pG6HrnVOJE/maxresdefault.jpg",
+			"https://www.katclay.com/wp-content/uploads/2022/10/sam-porter-bridges-against-rainbow-death-stranding.jpg",
+			"https://i.ytimg.com/vi/c0XCJrQSHXk/maxresdefault.jpg",
+			"https://assets-prd.ignimgs.com/2021/09/22/maser-1632344928482.jpg",
+			"https://upload.wikimedia.org/wikipedia/en/2/22/Death_Stranding.jpg",
+			"https://i.ytimg.com/vi/sLaTGtqd8zY/maxresdefault.jpg"
+		]
+	},
+	{
+		"id": 44,
+		"title": "Cyberpunk 2077",
+		"description": "An action role-playing game developed and published by CD Projekt",
+		"price": 49.99,
+		"discountPercentage": 0,
+		"rating": 4.2,
+		"stock": 70,
+		"platform": "Multi-platform",
+		"genre": "Action role-playing",
+		"thumbnail": "https://sites.uwm.edu/digital-cultures-collaboratory/files/2020/12/Thumbnail-2.png",
+		"images": [
+			"https://i.ytimg.com/vi/mFk_ivrgPCA/maxresdefault.jpg",
+			"https://www.gamespot.com/a/uploads/original/1574/15747411/4192563-vlcscreenshot2023-09-14-03h17m59s069.jpg",
+			"https://i.ytimg.com/vi/Xk8Id06dcAQ/maxresdefault.jpg",
+			"https://blogs-images.forbes.com/erikkain/files/2018/08/Screenshot-225.png",
+			"https://i.ytimg.com/vi/Rx27KZJoVK4/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/zHsTB6iAk952TA8t8NNqHJv0JTM=/0x0:3840x2160/1200x800/filters:focal(1737x1070:2351x1684)/cdn.vox-cdn.com/uploads/chorus_image/image/61039985/cyberpunk_2077_screenshot_04_3840.0.jpg"
+		]
+	},
+	{
+		"id": 45,
+		"title": "Resident Evil Village",
+		"description": "A survival horror game developed and published by Capcom",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 80,
+		"platform": "Multi-platform",
+		"genre": "Survival horror",
+		"thumbnail": "https://www.relyonhorror.com/wp-content/uploads/2021/01/ventruefull-4-e1610959913370.png",
+		"images": [
+			"https://i.ytimg.com/vi/XRgkdh65CfU/maxresdefault.jpg",
+			"https://bloody-disgusting.com/wp-content/uploads/2021/04/revillage.jpg",
+			"https://i.ytimg.com/vi/skE2paeilVI/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/uploads/chorus_asset/file/22497090/Resident_Evil_Village.jpg",
+			"https://i.ytimg.com/vi/Lr1h2DxwVos/maxresdefault.jpg",
+			"https://www.gamespot.com/a/uploads/original/1581/15811374/3826560-re_village_mercenaries_2.jpg"
+		]
+	},
+	{
+		"id": 46,
+		"title": "Ghost of Tsushima",
+		"description": "An action-adventure game developed by Sucker Punch Productions",
+		"price": 39.99,
+		"discountPercentage": 0,
+		"rating": 4.8,
+		"stock": 90,
+		"platform": "PlayStation 4",
+		"genre": "Action-adventure",
+		"thumbnail": "https://i.ytimg.com/vi/xYfxQGMSQaU/maxresdefault.jpg",
+		"images": [
+			"https://i.ytimg.com/vi/nVhXp6FX7Y4/maxresdefault.jpg",
+			"https://sm.ign.com/ign_nordic/gallery/g/ghost-of-t/ghost-of-tsushima-gameplay-screenshots-state-of-play_8hty.jpg",
+			"https://i.ytimg.com/vi/VfDWTaFqAUo/maxresdefault.jpg",
+			"https://www.hollywoodreporter.com/wp-content/uploads/2020/05/ghost_of_tsushima_-_publicity_-__h_2020_.jpg",
+			"https://i.ytimg.com/vi/CHhhNRKaOfc/maxresdefault.jpg",
+			"https://cdn.vox-cdn.com/thumbor/okyiloAUcJKYkxl0Lh97Clolw1g=/0x0:2476x1382/1400x1050/filters:focal(1238x691:1239x692)/cdn.vox-cdn.com/uploads/chorus_asset/file/11520443/Screen_Shot_2018_06_11_at_6.37.21_PM.png"
+		]
+	},
+	{
+		"id": 47,
+		"title": "Demon's Souls",
+		"description": "An action role-playing game developed by FromSoftware",
+		"price": 49.99,
+		"discountPercentage": 0,
+		"rating": 4.7,
+		"stock": 70,
+		"platform": "PlayStation 5",
+		"genre": "Action role-playing",
+		"thumbnail": "https://community.tm/attachments/thumb-092-demons-souls-1-jpg.15921/",
+		"images": [
+			"https://i.ytimg.com/vi/JiqGi3GMTko/maxresdefault.jpg",
+			"https://cdn.mos.cms.futurecdn.net/ELAAYpKCaJACr4MbVVPPGG.jpg",
+			"https://i.ytimg.com/vi/U00xOvCTOEQ/maxresdefault.jpg",
+			"https://image.api.playstation.com/vulcan/img/rnd/202011/1717/GemRaOZaCMhGxQ9dRhnQQyT5.png",
+			"https://i.ytimg.com/vi/KC0RHdICQr8/maxresdefault.jpg",
+			"https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/ps3_ps5_demons_souls_3.jpg"
+		]
+	},
+	{
+		"id": 48,
+		"title": "Call of Duty: Black Ops Cold War",
+		"description": "A first-person shooter game developed by Treyarch",
+		"price": 59.99,
+		"discountPercentage": 0,
+		"rating": 4.6,
+		"stock": 80,
+		"platform": "Multi-platform",
+		"genre": "First-person shooter",
+		"thumbnail": "https://s2.dmcdn.net/v/Ss7td1WoWgEnw2vre/x1080",
+		"images": [
+			"https://i.ytimg.com/vi/uPHQb5JBppY/maxresdefault.jpg",
+			"https://cdn.mos.cms.futurecdn.net/3gLuTu6rP7tiaQegQMrKhS.jpg",
+			"https://i.ytimg.com/vi/Oy_ac1NgWgU/mqdefault.jpg",
+			"https://images.gamersyde.com/image_stream-42758-4601_0002.jpg",
+			"https://i.ytimg.com/vi/ONQ35DHbkd0/maxresdefault.jpg",
+			"https://www.gamereactor.eu/media/grtv/76/517613_w926.jpg"
+		]
+	},
+	{
+		"id": 49,
+		"title": "Marvel's Spider-Man: Miles Morales",
+		"description": "An action-adventure game developed by Insomniac Games",
+		"price": 49.99,
+		"discountPercentage": 0,
+		"rating": 4.8,
+		"stock": 90,
+		"platform": "PlayStation 5",
+		"genre": "Action-adventure",
+		"thumbnail": "https://cdn1.epicgames.com/offer/f696430be718494fac1d6542cfb22542/EGS_MarvelsSpiderManMilesMorales_InsomniacGamesNixxesSoftware_S1_2560x1440-a0518b9f9f36a05294e37448df8a27a0",
+		"images": [
+			"https://cdn2.unrealengine.com/egs-marvelsspidermanmilesmorales-insomniacgamesnixxessoftware-g1a-01-1920x1080-fd8be263925d.jpg?h=270&quality=medium&resize=1&w=480",
+			"https://cdn2.unrealengine.com/egs-marvelsspidermanmilesmorales-insomniacgamesnixxessoftware-g1a-02-1920x1080-16ea2c788f78.jpg?h=270&quality=medium&resize=1&w=480",
+			"https://cdn2.unrealengine.com/egs-marvelsspidermanmilesmorales-insomniacgamesnixxessoftware-g1a-03-1920x1080-a1ea67e37885.jpg?h=270&quality=medium&resize=1&w=480",
+			"https://cdn2.unrealengine.com/egs-marvelsspidermanmilesmorales-insomniacgamesnixxessoftware-g1a-04-1920x1080-38f5d3ca0ab8.jpg?h=270&quality=medium&resize=1&w=480"
+		]
+	}
+]

@@ -42,10 +42,10 @@ const styles = StyleSheet.create({
 	text1: {
 		fontSize: 19,
 		fontWeight: "bold",
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 	},
 	text2: {
 		fontSize: 17,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 	},
 })

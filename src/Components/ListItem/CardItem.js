@@ -1,36 +1,19 @@
-import { useState } from "react"
 import { colors } from "../../Global/Colors"
-import {
-	View,
-	Text,
-	TouchableOpacity,
-	StyleSheet,
-	Image,
-	Switch,
-} from "react-native"
+import { View, Text, TouchableOpacity, StyleSheet, Image } from "react-native"
 
 const CardItem = ({ navigation, item, onConfirmDelete, onEdit }) => {
-	const [isEnabled, setIsEnabled] = useState(false)
-	const toggleSwitch = () => setIsEnabled((previousState) => !previousState)
 	return (
-		<View style={isEnabled ? styles.cardItemActive : styles.cardItemInactive}>
-			<Switch
-				thumbColor={isEnabled ? colors.secondary : colors.error}
-				onValueChange={toggleSwitch}
-				value={isEnabled}
-			/>
+		<View style={styles.cardItem}>
 			<TouchableOpacity
 				onPress={() => navigation.navigate("ItemDetails", { id: item.id })}
-				styles={styles.card}
 			>
+				<Text style={styles.cardTitle}>{item.title}</Text>
 				<Image
 					style={styles.image}
 					resizeMode="cover"
 					source={{ uri: item.thumbnail }}
 				/>
-				<Text style={styles.card}>{item.title}</Text>
-				<Text style={styles.card}> $ {item.price}</Text>
-				<Text style={styles.card}>{item.stock}</Text>
+				<Text style={styles.cardPrice}> $ {item.price}</Text>
 			</TouchableOpacity>
 			<TouchableOpacity
 				style={styles.imageContainer}
@@ -54,26 +37,18 @@ const CardItem = ({ navigation, item, onConfirmDelete, onEdit }) => {
 	)
 }
 const styles = StyleSheet.create({
-	cardItemActive: {
-		backgroundColor: colors.error,
-		flexDirection: "row",
-		padding: 10,
-		margin: 10,
-		justifyContent: "space-around",
-		alignItems: "center",
-	},
-	cardItemInactive: {
+	cardItem: {
 		backgroundColor: colors.tertiary,
-		flexDirection: "row",
 		padding: 10,
 		margin: 10,
+		flexDirection: "row",
 		justifyContent: "space-around",
 		alignItems: "center",
 	},
-
-	card: {
-		flexDirection: "row",
-		width: "100%",
+	cardTitle: {
+		color: colors.white,
+	},
+	cardPrice: {
 		color: colors.white,
 	},
 	iconsImage: {

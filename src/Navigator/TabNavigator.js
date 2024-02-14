@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native"
-import { NavigationContainer } from "@react-navigation/native"
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import ShopStack from "./StoreStack"
 import CartStack from "./CartStack"
@@ -11,43 +10,41 @@ const Tab = createBottomTabNavigator()
 
 const TabNavigator = () => {
 	return (
-		<NavigationContainer>
-			<Tab.Navigator
-				screenOptions={{
-					headerShown: false,
-					tabBarShowLabel: false,
-					tabBarStyle: styles.tabBar,
+		<Tab.Navigator
+			screenOptions={{
+				headerShown: false,
+				tabBarShowLabel: false,
+				tabBarStyle: styles.tabBar,
+			}}
+		>
+			<Tab.Screen
+				name="StoreStack"
+				component={ShopStack}
+				options={{
+					tabBarIcon: ({ focused }) => (
+						<TabIcon icon="shop" label="Store" focused={focused} />
+					),
 				}}
-			>
-				<Tab.Screen
-					name="StoreStack"
-					component={ShopStack}
-					options={{
-						tabBarIcon: ({ focused }) => (
-							<TabIcon icon="shop" label="Store" focused={focused} />
-						),
-					}}
-				/>
-				<Tab.Screen
-					name="CartStack"
-					component={CartStack}
-					options={{
-						tabBarIcon: ({ focused }) => (
-							<TabIcon icon="shopping-cart" label="Cart" focused={focused} />
-						),
-					}}
-				/>
-				<Tab.Screen
-					name="OrdersStack"
-					component={OrdersStack}
-					options={{
-						tabBarIcon: ({ focused }) => (
-							<TabIcon icon="list" label="Orders" focused={focused} />
-						),
-					}}
-				/>
-			</Tab.Navigator>
-		</NavigationContainer>
+			/>
+			<Tab.Screen
+				name="CartStack"
+				component={CartStack}
+				options={{
+					tabBarIcon: ({ focused }) => (
+						<TabIcon icon="shopping-cart" label="Cart" focused={focused} />
+					),
+				}}
+			/>
+			<Tab.Screen
+				name="OrdersStack"
+				component={OrdersStack}
+				options={{
+					tabBarIcon: ({ focused }) => (
+						<TabIcon icon="list" label="Orders" focused={focused} />
+					),
+				}}
+			/>
+		</Tab.Navigator>
 	)
 }
 

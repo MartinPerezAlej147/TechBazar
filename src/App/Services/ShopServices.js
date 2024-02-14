@@ -5,29 +5,52 @@ export const shopApi = createApi({
 	reducerPath: "shopApi",
 	baseQuery: fetchBaseQuery({ baseUrl: base_url }),
 	endpoints: (builder) => ({
-		getProducts: builder.query({
-			query: (category) =>
-				`products.json?orderBy="category"&equalTo="${category}"`,
+		getGames: builder.query({
+			query: (platform) =>
+				`games.json?orderBy="platform"&equalTo="${platform}"`,
 		}),
-		getProduct: builder.query({
-			query: (id) => `products/${id}.json`,
+		getGame: builder.query({
+			query: (id) => `games/${id}.json`,
 		}),
-		getCategories: builder.query({
-			query: () => "categories.json",
+		getPlatforms: builder.query({
+			query: () => "platforms.json",
+		}),
+		getOrders: builder.query({
+			query: (localId) => `orders/${localId}.json`,
+			transformResponse: (response) => {
+				if (!response) return []
+				const data = Object.keys(response).map((key) => ({
+					id: key,
+					...response[key],
+				}))
+				return data
+			},
+			providesTags: ["order"],
 		}),
 		postOrders: builder.mutation({
-			query: (order) => ({
-				url: "orders.json",
+			query: ({ localId, order }) => ({
+				url: `orders/${localId}.json`,
 				method: "POST",
 				body: order,
 			}),
+			providesTags: ["order"],
+		}),
+		postGameImage: builder.mutation({
+			query: ({ item, image }) => ({
+				url: `/games/${item.id}/thumbnail.json`,
+				method: "PUT",
+				body: image,
+			}),
+			providesTags: ["image"],
 		}),
 	}),
 })
 
 export const {
-	useGetProductsQuery,
-	useGetProductQuery,
-	useGetCategoriesQuery,
+	useGetGamesQuery,
+	useGetGameQuery,
+	useGetPlatformsQuery,
+	useGetOrdersQuery,
+	usePostGameImageMutation,
 	usePostOrdersMutation,
 } = shopApi

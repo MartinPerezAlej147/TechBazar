@@ -1,11 +1,26 @@
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native"
+import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native"
 import { colors } from "../Global/Colors"
+import { deleteAllSession } from "../DataBase"
+import { useDispatch } from "react-redux"
+import { clearUser } from "../Features/Auth/AuthSlice"
 
 const Header = () => {
+	const dispatch = useDispatch()
+	const onLogout = () => {
+		deleteAllSession().then((result) => console.log(result))
+		dispatch(clearUser())
+	}
+
 	return (
 		<View style={styles.container}>
 			<TouchableOpacity>
-				<Text style={styles.text}>TechBazar</Text>
+				<Text style={styles.text}>PlayerParadise</Text>
+			</TouchableOpacity>
+			<TouchableOpacity style={styles.imageContainer} onPress={() => onLogout}>
+				<Image
+					style={styles.iconsImage}
+					source={require("../Sources/logout.png")}
+				/>
 			</TouchableOpacity>
 		</View>
 	)
@@ -37,5 +52,14 @@ const styles = StyleSheet.create({
 		color: "white",
 		fontSize: 50,
 		fontFamily: "NewtonHowardFont",
+	},
+	imageContainer: {
+		backgroundColor: colors.secondary,
+		borderRadius: 8,
+	},
+	iconsImage: {
+		margin: 5,
+		height: 20,
+		width: 20,
 	},
 })

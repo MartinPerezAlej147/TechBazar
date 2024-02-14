@@ -1,9 +1,9 @@
-import Categories from "../Components/Categories"
+import Platforms from "../Components/Platforms"
 
 const Home = ({ navigation, route }) => {
 	return (
 		<>
-			<Categories navigation={navigation} route={route} />
+			<Platforms navigation={navigation} route={route} />
 		</>
 	)
 }

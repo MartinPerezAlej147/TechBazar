@@ -1,84 +1,54 @@
 [
 	{
 		"id": 1,
-		"userId": 2,
+		"userId": 1,
 		"createdAt": 1679869276580,
 		"items": [
 			{
-				"id": 3,
-				"title": "Samsung Universe 9",
-				"description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-				"price": 1249,
-				"discountPercentage": 15.46,
-				"rating": 4.09,
-				"stock": 36,
-				"brand": "Samsung",
-				"category": "smartphones",
-				"thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-				"images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
-				"quantity": 3
-			},
-			{
-				"id": 4,
-				"title": "OPPOF19",
-				"description": "OPPO F19 is officially announced on April 2021.",
-				"price": 280,
-				"discountPercentage": 17.91,
-				"rating": 4.3,
-				"stock": 123,
-				"brand": "OPPO",
-				"category": "smartphones",
-				"thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+				"id": 45,
+				"title": "Resident Evil Village",
+				"description": "A survival horror game developed and published by Capcom",
+				"price": 59.99,
+				"discountPercentage": 0,
+				"rating": 4.7,
+				"stock": 80,
+				"platform": "Multi-platform",
+				"genre": "Survival horror",
+				"thumbnail": "https://www.relyonhorror.com/wp-content/uploads/2021/01/ventruefull-4-e1610959913370.png",
 				"images": [
-					"https://i.dummyjson.com/data/products/4/1.jpg",
-					"https://i.dummyjson.com/data/products/4/2.jpg",
-					"https://i.dummyjson.com/data/products/4/3.jpg",
-					"https://i.dummyjson.com/data/products/4/4.jpg",
-					"https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-				],
-				"quantity": 2
+					"https://i.ytimg.com/vi/XRgkdh65CfU/maxresdefault.jpg",
+					"https://bloody-disgusting.com/wp-content/uploads/2021/04/revillage.jpg",
+					"https://i.ytimg.com/vi/skE2paeilVI/maxresdefault.jpg",
+					"https://cdn.vox-cdn.com/uploads/chorus_asset/file/22497090/Resident_Evil_Village.jpg",
+					"https://i.ytimg.com/vi/Lr1h2DxwVos/maxresdefault.jpg",
+					"https://www.gamespot.com/a/uploads/original/1581/15811374/3826560-re_village_mercenaries_2.jpg"
+				]
 			}
 		]
 	},
 
 	{
 		"id": 2,
-		"userId": 2,
+		"userId": 1,
 		"createdAt": 1679832276580,
 		"items": [
 			{
-				"id": 3,
-				"title": "Samsung Universe 9",
-				"description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-				"price": 1249,
-				"discountPercentage": 15.46,
-				"rating": 4.09,
-				"stock": 36,
-				"brand": "Samsung",
-				"category": "smartphones",
-				"thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-				"images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
-				"quantity": 3
-			},
-			{
-				"id": 4,
-				"title": "OPPOF19",
-				"description": "OPPO F19 is officially announced on April 2021.",
-				"price": 280,
-				"discountPercentage": 17.91,
-				"rating": 4.3,
-				"stock": 123,
-				"brand": "OPPO",
-				"category": "smartphones",
-				"thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+				"id": 50,
+				"title": "Fallout 76",
+				"description": "An online action role-playing game developed by Bethesda Game Studios",
+				"price": 39.99,
+				"discountPercentage": 0,
+				"rating": 4.0,
+				"stock": 60,
+				"platform": "Multi-platform",
+				"genre": "Action role-playing",
+				"thumbnail": "https://cdn.entries.clios.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/51/1427/36459/77503/4KwGELDsYu1alkHeALCD8sUZZ4tSXU6lApPi7ATncgo.jpg/4KwGELDsYu1alkHeALCD8sUZZ4tSXU6lApPi7ATncgo.jpg",
 				"images": [
-					"https://i.dummyjson.com/data/products/4/1.jpg",
-					"https://i.dummyjson.com/data/products/4/2.jpg",
-					"https://i.dummyjson.com/data/products/4/3.jpg",
-					"https://i.dummyjson.com/data/products/4/4.jpg",
-					"https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-				],
-				"quantity": 2
+					"https://cdn.mos.cms.futurecdn.net/eeTrSnGWebiLW8oPZpA3V8.jpg",
+					"https://i.ytimg.com/vi/q5tx0lphQUs/maxresdefault.jpg",
+					"https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2021/08/21/Fallout-76-gameplay.jpg",
+					"https://variety.com/wp-content/uploads/2018/10/fallout-764-e1539010575939.png?w=1000"
+				]
 			}
 		]
 	}

@@ -1,5 +1,5 @@
 import { FlatList, StyleSheet, Text, View } from "react-native"
-import allOrders from "../Data/Orders.json"
+import allOrders from "../Data/orders.json"
 import OrderItem from "../Components/OrderItem"
 
 const Orders = () => {

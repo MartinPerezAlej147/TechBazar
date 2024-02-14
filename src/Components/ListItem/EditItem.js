@@ -1,7 +1,15 @@
 import { colors } from "../../Global/Colors"
-import { Modal, View, TextInput, Button, StyleSheet } from "react-native"
+import { Modal, View, TextInput, Button, StyleSheet, Image } from "react-native"
+import { useEffect, useState } from "react"
+import * as ImagePicker from "expo-image-picker"
+import ActivityLoader from "../../Components/ActivityLoader"
+import {
+	usePostGameImageMutation,
+	useGetGameQuery,
+} from "../../App/Services/ShopServices"
 
 const EditItem = ({
+	navigation,
 	newTitleItem,
 	newPriceItem,
 	newStockItem,
@@ -13,6 +21,42 @@ const EditItem = ({
 	onCancel,
 	onEdit,
 }) => {
+	const [image, setImage] = useState("")
+	const [triggerGameImage] = usePostGameImageMutation()
+	const [loading, setLoading] = useState(true)
+	const { data, isSuccess } = useGetGameQuery(item.id)
+
+	useEffect(() => {
+		if (isSuccess && data) {
+			setImage(data.thumbnail)
+			setLoading(false)
+		}
+	}, [isSuccess])
+
+	const pickImage = async () => {
+		const { granted } = await ImagePicker.requestCameraPermissionsAsync()
+
+		if (granted) {
+			let result = await ImagePicker.launchCameraAsync({
+				mediaTypes: ImagePicker.MediaTypeOptions.Images,
+				allowsEditing: true,
+				aspect: [4, 3],
+				quality: 0.3,
+				base64: true,
+			})
+
+			if (!result.canceled) {
+				setImage("data:image/jpeg;base64," + result.assets[0].base64)
+			}
+		}
+	}
+	const confirmImage = () => {
+		triggerGameImage({ item, image })
+		navigation.goBack()
+	}
+
+	if (loading) return <ActivityLoader />
+
 	return (
 		<Modal visible={visible}>
 			<View>
@@ -41,8 +85,15 @@ const EditItem = ({
 						keyboardType="numeric"
 					/>
 				</View>
-				<Button title="Editar" onPress={() => onEdit(item)} />
-				<Button title="Cancelar" onPress={() => onCancel(item, false)} />
+				<Image
+					source={image ? { uri: image } : require("../../Sources/noimage.png")}
+					style={styles.image}
+				/>
+				<Button title="Take photo" onPress={pickImage} />
+				<Button title="Save photo" onPress={confirmImage} />
+
+				<Button title="Edit" onPress={() => onEdit(item)} />
+				<Button title="Cancel" onPress={() => onCancel(item, false)} />
 			</View>
 		</Modal>
 	)
@@ -61,6 +112,15 @@ const styles = StyleSheet.create({
 		paddingVertical: 5,
 		width: 100,
 		color: colors.white,
+	},
+	container: {
+		flex: 1,
+		alignItems: "center",
+		marginTop: 20,
+	},
+	image: {
+		width: 100,
+		height: 100,
 	},
 })
 

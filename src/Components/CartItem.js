@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View } from "react-native"
-import { Entypo } from "@expo/vector-icons"
 import { colors } from "../Global/Colors"
 
 const CartItem = ({ item }) => {
@@ -7,10 +6,8 @@ const CartItem = ({ item }) => {
 		<View style={styles.container}>
 			<View style={styles.textContainer}>
 				<Text style={styles.text1}>{item.title}</Text>
-				<Text style={styles.text2}>{item.brand}</Text>
 				<Text style={styles.text2}>$ {item.price}</Text>
 			</View>
-			<Entypo name="trash" size={25} color="black" />
 		</View>
 	)
 }
@@ -34,13 +31,13 @@ const styles = StyleSheet.create({
 		gap: 5,
 	},
 	text1: {
-		fontSize: 19,
+		fontSize: 15,
 		color: colors.lightGray,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 	},
 	text2: {
-		fontSize: 17,
+		fontSize: 10,
 		color: colors.lightGray,
-		fontFamily: "Josefin",
+		fontFamily: "CybordPunkFont",
 	},
 })
